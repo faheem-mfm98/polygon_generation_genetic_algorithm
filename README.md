@@ -1,4 +1,8 @@
 # Polygon Generation Through Genetic Algorithm
 Python-based genetic algorithm that creates and visualizes polygons without any intersection between its edges.
 
+# Analysis
+
+The program flow can be understood as being depicted in the image below:
+
 
