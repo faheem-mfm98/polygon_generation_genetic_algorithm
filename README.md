@@ -5,4 +5,4 @@ Python-based genetic algorithm that creates and visualizes polygons without any 
 
 The program flow can be understood as being depicted in the image below:
 
-![flowchart](https://github.com/faheem-mfm98/polygon_generation_genetic_algorithm/blob/main/images/algorithm_flowchart.png = 200*200)
+![flowchart](https://github.com/faheem-mfm98/polygon_generation_genetic_algorithm/blob/main/images/algorithm_flowchart.png | width=200)
