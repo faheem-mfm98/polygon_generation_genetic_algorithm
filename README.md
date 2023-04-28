@@ -14,22 +14,22 @@ runGA is a function that generates a population (list) of individual solution.
 
 Then, it iterates over a number of functions to generate the **Best Polygon Solution**.
 
-1. Fitness Calculation
+**1. Fitness Calculation**
 
 	Calculates the fitness of all the sample polygons in the population
 	based upon some criteria. 
 
-2. Parent Selection
+**2. Parent Selection**
 
 	Selects two parents (polygons) for the crossover to generate offspring
 	polygons that are added to the population.
  
-3. Crossover and Mutation
+**3. Crossover and Mutation**
 
 	Davies' OX1 Crossover is applied on the selected parent polygons and 
 	two new offspring polygons are created and added to the population.
 
-4. Best Solution Identification
+**4. Best Solution Identification**
 
 	Fitness of the new population is calculated and the current best polygon is
 	extracted and compared with the best polygon of the previous iteration.
