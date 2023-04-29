@@ -89,7 +89,7 @@ Fitness is calculated by two functions:
 ## Visualizing the Polygon
 
 **draw_polygon** function is implemented to draw polygons using matplotlib. Only those
-points from the domain of points are considered whose respective chromosome index
+points from the domain of points are considered whose respective chromosome index (gene)
 has the value 1.
 
 # Feedback
