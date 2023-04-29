@@ -85,3 +85,8 @@ Fitness is calculated by two functions:
 **draw_polygon** function is implemented to draw polygons using matplotlib. Only those
 points from the domain of points are considered whose respective chromosome index
 has the value 1.
+
+# Feedback
+
+Use the code, improve it, and leave a star if it helped you in your learning. :smile:
+
