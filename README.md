@@ -76,6 +76,7 @@ Fitness is calculated by two functions:
 	The vertices are connected in sequential order to make edges.
 
 **2. check_intersection()**
+
 	Each newly created edge is check for intersections with the previous edges
 	of the polygon. If intersection occurs, num_intersection is incremented.
 
