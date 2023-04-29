@@ -92,6 +92,10 @@ Fitness is calculated by two functions:
 points from the domain of points are considered whose respective chromosome index (gene)
 has the value 1.
 
+A sample output of the program generating a polygon with 6 vertices in the 4th generation.
+
+![polygons](https://github.com/faheem-mfm98/polygon_generation_genetic_algorithm/blob/main/images/polygons.png)
+
 # Feedback
 
 Use the code, improve it, and leave a star if it helped you in your learning. :smile:
