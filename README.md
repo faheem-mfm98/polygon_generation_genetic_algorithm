@@ -34,8 +34,14 @@ Then, it iterates over a number of functions to generate the **Best Polygon Solu
 	Fitness of the new population is calculated and the current best polygon is
 	extracted and compared with the best polygon of the previous iteration.
 	If success criteria is met, then the process is stopped. Else, another
-	iteration occurs to generate the best polygon solution. 
+	iteration occurs to generate the best polygon solution.
+
+	The algorithm may give a sub-optimal solution if the best solution 
+	is not found within the number of generations.
 	
+	
+
+
 ## Individual Solution 
 
 Each Individual solution in the population consists of:
