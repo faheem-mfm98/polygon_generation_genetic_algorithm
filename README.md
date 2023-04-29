@@ -17,7 +17,7 @@ Then, it iterates over a number of functions to generate the **Best Polygon Solu
 **1. Fitness Calculation**
 
 	Calculates the fitness of all the sample polygons in the population
-	based upon some criteria. 
+	based upon the criteria: sum(chromosome) - num_intersections.  
 
 **2. Parent Selection**
 
@@ -65,3 +65,22 @@ Hence, this is the best polygon solution based upon the criteria:
 1. Polygon Value equals size of chromosome, and
 2. Number of intersections equals zero.
 ```
+
+## Fitness Calculation
+
+Fitness is calculated by two functions:
+
+**1. create_polygon()**
+
+	The polygon is created (if possible) from the polygon sequence edge by edge.
+	The vertices are connected in sequential order to make edges.
+
+**2. check_intersection()**
+	Each newly created edge is check for intersections with the previous edges
+	of the polygon. If intersection occurs, num_intersection is incremented.
+
+## Visualizing the Polygon
+
+**draw_polygon** function is implemented to draw polygons using matplotlib. Only those
+points from the domain of points are considered whose respective chromosome index
+has the value 1.
