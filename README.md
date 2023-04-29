@@ -94,6 +94,7 @@ has the value 1.
 
 A sample output of the program generating a polygon with 6 vertices in the 4th generation.
 
+![polygons](https://github.com/faheem-mfm98/polygon_generation_genetic_algorithm/blob/main/images/polygons2.png)
 
 # Feedback
 
